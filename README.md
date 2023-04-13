@@ -12,18 +12,27 @@ the challenge is to create 8 projects in Python, the first one is a dice simulat
 
 Throughout the process I researched each function and why it was being used, I was also modifying information and adding lines of code that I knew to further customize this learning experience.
 
+⚠️First try⚠️
+div align="center"
+img src="(https://ibb.co/Rjy44D7)" width="0px" /
+/div
 
+I had some errors at the beginning and needed to make corrections, throughout the process I researched about.
 
+When asked;
+generate number?
 
-<h1>My History</h1>
+the answer should only be "yes" or "no" and for the case of typing with the first letter capitalized it was done
 
-I have been working as a graphic designer for over 10 years, i am brazilian and i live in brazil, I have a degree in business administration and in 2018 I opened my company, in that period I already had 3 years of experience in remote work as a designer within an advertising agency where I interned for 6 months in face-to-face work. 
+=='Yes' or 'yes':
+=='No' or 'no':
 
-4 years ago I started taking on international projects and I've been working for an agency in China for 3 years now. (even though I'm not fluent in English, I can understand the team's requests)
+and I created an exception in case I typed anything else (ex: a number)
 
-in 2021 a feeling of dissatisfaction began to emerge. I tried to understand and deal with it until this year 2023 when I came to the conclusion that the time for a transition has come, I want new challenges and to learn something totally new and different from my area.
+But...
+When I put anything other than "yes" or "no" it gave me a result of a number, but the message defined for in case of exceptions should appear
 
-
+<h1>Solutions</h1>
 
 ~~~python
 # Dice Simulator
@@ -57,6 +66,33 @@ class DiceSimulator:
 
 simulator = DiceSimulator()
 simulator.start()
+
+~~~
+
+I switched to;
+
+answer.lower() == 'yes':
+answer.lower() == 'no':
+
+Googling around I found that class names are usually written in CamelCase, so I renamed dice_simulator to DiceSimulator.
+I added spaces after commas in random.randint(self.minimum,self.maximum) to follow PEP 8 style guidelines.
+
+<h1>My History</h1>
+
+I have been working as a graphic designer for over 10 years, i am brazilian and i live in brazil, I have a degree in business administration and in 2018 I opened my company, in that period I already had 3 years of experience in remote work as a designer within an advertising agency where I interned for 6 months in face-to-face work. 
+
+4 years ago I started taking on international projects and I've been working for an agency in China for 3 years now. (even though I'm not fluent in English, I can understand the team's requests)
+
+in 2021 a feeling of dissatisfaction began to emerge. I tried to understand and deal with it until this year 2023 when I came to the conclusion that the time for a transition has come, I want new challenges and to learn something totally new and different from my area.
+
+**Thank you**
+
+if you made it this far, thank you very much.
+I'm at the stage of discovering several things, which until now I haven't even heard about.
+I hope to one day really understand how to solve real problems using programming and contribute to the community, until then I know the road is long.
+
+
+
 
 
 
