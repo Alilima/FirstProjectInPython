@@ -13,9 +13,9 @@ the challenge is to create 8 projects in Python, the first one is a dice simulat
 Throughout the process I researched each function and why it was being used, I was also modifying information and adding lines of code that I knew to further customize this learning experience.
 
 ⚠️First try⚠️
-div align="center"
-img src="(https://ibb.co/Rjy44D7)" width="0px" /
-/div
+
+![Sem título](https://user-images.githubusercontent.com/120810993/231781416-edd87e18-6782-4826-bb82-b849d0ee9b67.jpg)
+
 
 I had some errors at the beginning and needed to make corrections, throughout the process I researched about.
 
